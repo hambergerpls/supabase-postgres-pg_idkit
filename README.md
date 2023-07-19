@@ -1,4 +1,5 @@
 # supabase-postgres-pg_idkit
+`docker pull hambergerpls/supabase-postgres-pg_idkit:15.1.0.90`
 
 This docker image builds [pg_idkit](https://github.com/VADOSWARE/pg_idkit) extension and installs it to [supabase-postgres](https://github.com/supabase/postgres) docker image.
 
