@@ -25,7 +25,7 @@ USER app
 WORKDIR /home/app
 RUN git clone https://github.com/VADOSWARE/pg_idkit.git pg_idkit
 WORKDIR /home/app/pg_idkit
-RUN git reset --hard 5c93c4b03f06256e3a659f10655389b366c9ddb1
+RUN git reset --hard be8e0830286c954d96979eaea6c719ecfe34f2c0
 
 RUN cargo install cargo-pgrx@0.9.7
 RUN cargo pgrx init --pg15 $(which pg_config)
