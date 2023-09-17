@@ -1,4 +1,4 @@
-FROM rust:latest as build
+FROM rust:latest@sha256:b988926d2f8728a8ade9c308c94365615ecffa1a2f6d4cc9309c06bdc8f207a9 as build
 
 
 ENV build_deps build-essential \
