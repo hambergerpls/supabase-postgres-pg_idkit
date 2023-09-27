@@ -3,7 +3,7 @@ FROM rust:latest@sha256:b988926d2f8728a8ade9c308c94365615ecffa1a2f6d4cc9309c06bd
 
 ENV build_deps build-essential \
   libpq-dev \
-  postgresql \
+  postgresql-15 \
   postgresql-server-dev-15 \
   curl \
   zlib1g-dev \
